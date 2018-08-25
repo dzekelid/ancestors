@@ -12,9 +12,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ancestors/master/_listings/bbc/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BBC Nitro
-  x-api-slug: bbc-nitro
-  description: bbc-nitro-is-the-bbcs-application-programming-interface-api-for-bbc-programmes-metadata-
+- name: BBC Nitro - Get raw ancestors
+  x-api-slug: v1episodespidancestors-get
+  description: Get raw ancestors
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg
   humanURL: http://www.bbc.com/
   baseURL: https://programmes.api.bbc.com//nitro/api
@@ -25,17 +25,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ancestors/master/_listings/bbc/v1episodespidancestors-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ancestors/master/_listings/bbc/v1episodespidancestors-get-openapi.md
-- name: BBC Nitro
-  x-api-slug: bbc-nitro
-  description: Breaking news, sport, TV, radio and a whole lot more. The BBC informs,
-    educates and entertains - wherever you are, whatever your age.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg
-  humanURL: http://www.bbc.com/
-  baseURL: https://programmes.api.bbc.com//nitro/api
-  tags: Ancestors
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ancestors/master/_listings/bbc/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://barclays.api.gallery.streamdata.io
